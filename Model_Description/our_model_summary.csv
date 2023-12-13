@@ -1,0 +1,305 @@
+Layer,Kernel Shape,Output Shape,Params,Mult-Adds
+0_token_emb_tbl,"[512, 50257]","[16, 256, 512]",25731584.0,25731584.0
+1_pos_emb_tbl,"[512, 256]","[256, 512]",131072.0,131072.0
+2_attention_blocks.0.LayerNorm_linearlayer1,[512],"[16, 256, 512]",1024.0,512.0
+3_attention_blocks.0.self_attention.heads.0.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+4_attention_blocks.0.self_attention.heads.0.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+5_attention_blocks.0.self_attention.heads.0.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+6_attention_blocks.0.self_attention.heads.0.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+7_attention_blocks.0.self_attention.heads.0.Dropout_drop,-,"[16, 256, 256]",,
+8_attention_blocks.0.self_attention.heads.0.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+9_attention_blocks.0.self_attention.heads.0.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+10_attention_blocks.0.self_attention.heads.1.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+11_attention_blocks.0.self_attention.heads.1.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+12_attention_blocks.0.self_attention.heads.1.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+13_attention_blocks.0.self_attention.heads.1.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+14_attention_blocks.0.self_attention.heads.1.Dropout_drop,-,"[16, 256, 256]",,
+15_attention_blocks.0.self_attention.heads.1.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+16_attention_blocks.0.self_attention.heads.1.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+17_attention_blocks.0.self_attention.heads.2.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+18_attention_blocks.0.self_attention.heads.2.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+19_attention_blocks.0.self_attention.heads.2.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+20_attention_blocks.0.self_attention.heads.2.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+21_attention_blocks.0.self_attention.heads.2.Dropout_drop,-,"[16, 256, 256]",,
+22_attention_blocks.0.self_attention.heads.2.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+23_attention_blocks.0.self_attention.heads.2.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+24_attention_blocks.0.self_attention.heads.3.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+25_attention_blocks.0.self_attention.heads.3.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+26_attention_blocks.0.self_attention.heads.3.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+27_attention_blocks.0.self_attention.heads.3.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+28_attention_blocks.0.self_attention.heads.3.Dropout_drop,-,"[16, 256, 256]",,
+29_attention_blocks.0.self_attention.heads.3.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+30_attention_blocks.0.self_attention.heads.3.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+31_attention_blocks.0.self_attention.heads.4.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+32_attention_blocks.0.self_attention.heads.4.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+33_attention_blocks.0.self_attention.heads.4.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+34_attention_blocks.0.self_attention.heads.4.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+35_attention_blocks.0.self_attention.heads.4.Dropout_drop,-,"[16, 256, 256]",,
+36_attention_blocks.0.self_attention.heads.4.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+37_attention_blocks.0.self_attention.heads.4.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+38_attention_blocks.0.self_attention.heads.5.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+39_attention_blocks.0.self_attention.heads.5.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+40_attention_blocks.0.self_attention.heads.5.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+41_attention_blocks.0.self_attention.heads.5.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+42_attention_blocks.0.self_attention.heads.5.Dropout_drop,-,"[16, 256, 256]",,
+43_attention_blocks.0.self_attention.heads.5.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+44_attention_blocks.0.self_attention.heads.5.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+45_attention_blocks.0.self_attention.Linear_projection,"[510, 512]","[16, 256, 512]",261632.0,261120.0
+46_attention_blocks.0.self_attention.Dropout_drop,-,"[16, 256, 512]",,
+47_attention_blocks.0.LayerNorm_linearlayer2,[512],"[16, 256, 512]",1024.0,512.0
+48_attention_blocks.0.feed_forward.Linear_layer1,"[512, 2048]","[16, 256, 2048]",1050624.0,1048576.0
+49_attention_blocks.0.feed_forward.ReLU_relu,-,"[16, 256, 2048]",,
+50_attention_blocks.0.feed_forward.Linear_layer2,"[2048, 512]","[16, 256, 512]",1049088.0,1048576.0
+51_attention_blocks.0.feed_forward.Dropout_dropout,-,"[16, 256, 512]",,
+52_attention_blocks.1.LayerNorm_linearlayer1,[512],"[16, 256, 512]",1024.0,512.0
+53_attention_blocks.1.self_attention.heads.0.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+54_attention_blocks.1.self_attention.heads.0.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+55_attention_blocks.1.self_attention.heads.0.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+56_attention_blocks.1.self_attention.heads.0.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+57_attention_blocks.1.self_attention.heads.0.Dropout_drop,-,"[16, 256, 256]",,
+58_attention_blocks.1.self_attention.heads.0.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+59_attention_blocks.1.self_attention.heads.0.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+60_attention_blocks.1.self_attention.heads.1.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+61_attention_blocks.1.self_attention.heads.1.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+62_attention_blocks.1.self_attention.heads.1.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+63_attention_blocks.1.self_attention.heads.1.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+64_attention_blocks.1.self_attention.heads.1.Dropout_drop,-,"[16, 256, 256]",,
+65_attention_blocks.1.self_attention.heads.1.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+66_attention_blocks.1.self_attention.heads.1.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+67_attention_blocks.1.self_attention.heads.2.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+68_attention_blocks.1.self_attention.heads.2.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+69_attention_blocks.1.self_attention.heads.2.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+70_attention_blocks.1.self_attention.heads.2.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+71_attention_blocks.1.self_attention.heads.2.Dropout_drop,-,"[16, 256, 256]",,
+72_attention_blocks.1.self_attention.heads.2.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+73_attention_blocks.1.self_attention.heads.2.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+74_attention_blocks.1.self_attention.heads.3.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+75_attention_blocks.1.self_attention.heads.3.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+76_attention_blocks.1.self_attention.heads.3.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+77_attention_blocks.1.self_attention.heads.3.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+78_attention_blocks.1.self_attention.heads.3.Dropout_drop,-,"[16, 256, 256]",,
+79_attention_blocks.1.self_attention.heads.3.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+80_attention_blocks.1.self_attention.heads.3.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+81_attention_blocks.1.self_attention.heads.4.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+82_attention_blocks.1.self_attention.heads.4.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+83_attention_blocks.1.self_attention.heads.4.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+84_attention_blocks.1.self_attention.heads.4.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+85_attention_blocks.1.self_attention.heads.4.Dropout_drop,-,"[16, 256, 256]",,
+86_attention_blocks.1.self_attention.heads.4.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+87_attention_blocks.1.self_attention.heads.4.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+88_attention_blocks.1.self_attention.heads.5.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+89_attention_blocks.1.self_attention.heads.5.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+90_attention_blocks.1.self_attention.heads.5.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+91_attention_blocks.1.self_attention.heads.5.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+92_attention_blocks.1.self_attention.heads.5.Dropout_drop,-,"[16, 256, 256]",,
+93_attention_blocks.1.self_attention.heads.5.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+94_attention_blocks.1.self_attention.heads.5.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+95_attention_blocks.1.self_attention.Linear_projection,"[510, 512]","[16, 256, 512]",261632.0,261120.0
+96_attention_blocks.1.self_attention.Dropout_drop,-,"[16, 256, 512]",,
+97_attention_blocks.1.LayerNorm_linearlayer2,[512],"[16, 256, 512]",1024.0,512.0
+98_attention_blocks.1.feed_forward.Linear_layer1,"[512, 2048]","[16, 256, 2048]",1050624.0,1048576.0
+99_attention_blocks.1.feed_forward.ReLU_relu,-,"[16, 256, 2048]",,
+100_attention_blocks.1.feed_forward.Linear_layer2,"[2048, 512]","[16, 256, 512]",1049088.0,1048576.0
+101_attention_blocks.1.feed_forward.Dropout_dropout,-,"[16, 256, 512]",,
+102_attention_blocks.2.LayerNorm_linearlayer1,[512],"[16, 256, 512]",1024.0,512.0
+103_attention_blocks.2.self_attention.heads.0.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+104_attention_blocks.2.self_attention.heads.0.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+105_attention_blocks.2.self_attention.heads.0.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+106_attention_blocks.2.self_attention.heads.0.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+107_attention_blocks.2.self_attention.heads.0.Dropout_drop,-,"[16, 256, 256]",,
+108_attention_blocks.2.self_attention.heads.0.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+109_attention_blocks.2.self_attention.heads.0.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+110_attention_blocks.2.self_attention.heads.1.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+111_attention_blocks.2.self_attention.heads.1.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+112_attention_blocks.2.self_attention.heads.1.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+113_attention_blocks.2.self_attention.heads.1.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+114_attention_blocks.2.self_attention.heads.1.Dropout_drop,-,"[16, 256, 256]",,
+115_attention_blocks.2.self_attention.heads.1.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+116_attention_blocks.2.self_attention.heads.1.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+117_attention_blocks.2.self_attention.heads.2.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+118_attention_blocks.2.self_attention.heads.2.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+119_attention_blocks.2.self_attention.heads.2.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+120_attention_blocks.2.self_attention.heads.2.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+121_attention_blocks.2.self_attention.heads.2.Dropout_drop,-,"[16, 256, 256]",,
+122_attention_blocks.2.self_attention.heads.2.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+123_attention_blocks.2.self_attention.heads.2.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+124_attention_blocks.2.self_attention.heads.3.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+125_attention_blocks.2.self_attention.heads.3.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+126_attention_blocks.2.self_attention.heads.3.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+127_attention_blocks.2.self_attention.heads.3.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+128_attention_blocks.2.self_attention.heads.3.Dropout_drop,-,"[16, 256, 256]",,
+129_attention_blocks.2.self_attention.heads.3.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+130_attention_blocks.2.self_attention.heads.3.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+131_attention_blocks.2.self_attention.heads.4.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+132_attention_blocks.2.self_attention.heads.4.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+133_attention_blocks.2.self_attention.heads.4.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+134_attention_blocks.2.self_attention.heads.4.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+135_attention_blocks.2.self_attention.heads.4.Dropout_drop,-,"[16, 256, 256]",,
+136_attention_blocks.2.self_attention.heads.4.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+137_attention_blocks.2.self_attention.heads.4.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+138_attention_blocks.2.self_attention.heads.5.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+139_attention_blocks.2.self_attention.heads.5.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+140_attention_blocks.2.self_attention.heads.5.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+141_attention_blocks.2.self_attention.heads.5.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+142_attention_blocks.2.self_attention.heads.5.Dropout_drop,-,"[16, 256, 256]",,
+143_attention_blocks.2.self_attention.heads.5.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+144_attention_blocks.2.self_attention.heads.5.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+145_attention_blocks.2.self_attention.Linear_projection,"[510, 512]","[16, 256, 512]",261632.0,261120.0
+146_attention_blocks.2.self_attention.Dropout_drop,-,"[16, 256, 512]",,
+147_attention_blocks.2.LayerNorm_linearlayer2,[512],"[16, 256, 512]",1024.0,512.0
+148_attention_blocks.2.feed_forward.Linear_layer1,"[512, 2048]","[16, 256, 2048]",1050624.0,1048576.0
+149_attention_blocks.2.feed_forward.ReLU_relu,-,"[16, 256, 2048]",,
+150_attention_blocks.2.feed_forward.Linear_layer2,"[2048, 512]","[16, 256, 512]",1049088.0,1048576.0
+151_attention_blocks.2.feed_forward.Dropout_dropout,-,"[16, 256, 512]",,
+152_attention_blocks.3.LayerNorm_linearlayer1,[512],"[16, 256, 512]",1024.0,512.0
+153_attention_blocks.3.self_attention.heads.0.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+154_attention_blocks.3.self_attention.heads.0.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+155_attention_blocks.3.self_attention.heads.0.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+156_attention_blocks.3.self_attention.heads.0.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+157_attention_blocks.3.self_attention.heads.0.Dropout_drop,-,"[16, 256, 256]",,
+158_attention_blocks.3.self_attention.heads.0.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+159_attention_blocks.3.self_attention.heads.0.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+160_attention_blocks.3.self_attention.heads.1.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+161_attention_blocks.3.self_attention.heads.1.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+162_attention_blocks.3.self_attention.heads.1.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+163_attention_blocks.3.self_attention.heads.1.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+164_attention_blocks.3.self_attention.heads.1.Dropout_drop,-,"[16, 256, 256]",,
+165_attention_blocks.3.self_attention.heads.1.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+166_attention_blocks.3.self_attention.heads.1.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+167_attention_blocks.3.self_attention.heads.2.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+168_attention_blocks.3.self_attention.heads.2.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+169_attention_blocks.3.self_attention.heads.2.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+170_attention_blocks.3.self_attention.heads.2.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+171_attention_blocks.3.self_attention.heads.2.Dropout_drop,-,"[16, 256, 256]",,
+172_attention_blocks.3.self_attention.heads.2.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+173_attention_blocks.3.self_attention.heads.2.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+174_attention_blocks.3.self_attention.heads.3.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+175_attention_blocks.3.self_attention.heads.3.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+176_attention_blocks.3.self_attention.heads.3.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+177_attention_blocks.3.self_attention.heads.3.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+178_attention_blocks.3.self_attention.heads.3.Dropout_drop,-,"[16, 256, 256]",,
+179_attention_blocks.3.self_attention.heads.3.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+180_attention_blocks.3.self_attention.heads.3.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+181_attention_blocks.3.self_attention.heads.4.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+182_attention_blocks.3.self_attention.heads.4.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+183_attention_blocks.3.self_attention.heads.4.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+184_attention_blocks.3.self_attention.heads.4.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+185_attention_blocks.3.self_attention.heads.4.Dropout_drop,-,"[16, 256, 256]",,
+186_attention_blocks.3.self_attention.heads.4.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+187_attention_blocks.3.self_attention.heads.4.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+188_attention_blocks.3.self_attention.heads.5.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+189_attention_blocks.3.self_attention.heads.5.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+190_attention_blocks.3.self_attention.heads.5.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+191_attention_blocks.3.self_attention.heads.5.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+192_attention_blocks.3.self_attention.heads.5.Dropout_drop,-,"[16, 256, 256]",,
+193_attention_blocks.3.self_attention.heads.5.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+194_attention_blocks.3.self_attention.heads.5.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+195_attention_blocks.3.self_attention.Linear_projection,"[510, 512]","[16, 256, 512]",261632.0,261120.0
+196_attention_blocks.3.self_attention.Dropout_drop,-,"[16, 256, 512]",,
+197_attention_blocks.3.LayerNorm_linearlayer2,[512],"[16, 256, 512]",1024.0,512.0
+198_attention_blocks.3.feed_forward.Linear_layer1,"[512, 2048]","[16, 256, 2048]",1050624.0,1048576.0
+199_attention_blocks.3.feed_forward.ReLU_relu,-,"[16, 256, 2048]",,
+200_attention_blocks.3.feed_forward.Linear_layer2,"[2048, 512]","[16, 256, 512]",1049088.0,1048576.0
+201_attention_blocks.3.feed_forward.Dropout_dropout,-,"[16, 256, 512]",,
+202_attention_blocks.4.LayerNorm_linearlayer1,[512],"[16, 256, 512]",1024.0,512.0
+203_attention_blocks.4.self_attention.heads.0.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+204_attention_blocks.4.self_attention.heads.0.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+205_attention_blocks.4.self_attention.heads.0.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+206_attention_blocks.4.self_attention.heads.0.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+207_attention_blocks.4.self_attention.heads.0.Dropout_drop,-,"[16, 256, 256]",,
+208_attention_blocks.4.self_attention.heads.0.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+209_attention_blocks.4.self_attention.heads.0.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+210_attention_blocks.4.self_attention.heads.1.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+211_attention_blocks.4.self_attention.heads.1.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+212_attention_blocks.4.self_attention.heads.1.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+213_attention_blocks.4.self_attention.heads.1.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+214_attention_blocks.4.self_attention.heads.1.Dropout_drop,-,"[16, 256, 256]",,
+215_attention_blocks.4.self_attention.heads.1.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+216_attention_blocks.4.self_attention.heads.1.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+217_attention_blocks.4.self_attention.heads.2.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+218_attention_blocks.4.self_attention.heads.2.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+219_attention_blocks.4.self_attention.heads.2.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+220_attention_blocks.4.self_attention.heads.2.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+221_attention_blocks.4.self_attention.heads.2.Dropout_drop,-,"[16, 256, 256]",,
+222_attention_blocks.4.self_attention.heads.2.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+223_attention_blocks.4.self_attention.heads.2.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+224_attention_blocks.4.self_attention.heads.3.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+225_attention_blocks.4.self_attention.heads.3.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+226_attention_blocks.4.self_attention.heads.3.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+227_attention_blocks.4.self_attention.heads.3.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+228_attention_blocks.4.self_attention.heads.3.Dropout_drop,-,"[16, 256, 256]",,
+229_attention_blocks.4.self_attention.heads.3.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+230_attention_blocks.4.self_attention.heads.3.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+231_attention_blocks.4.self_attention.heads.4.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+232_attention_blocks.4.self_attention.heads.4.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+233_attention_blocks.4.self_attention.heads.4.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+234_attention_blocks.4.self_attention.heads.4.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+235_attention_blocks.4.self_attention.heads.4.Dropout_drop,-,"[16, 256, 256]",,
+236_attention_blocks.4.self_attention.heads.4.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+237_attention_blocks.4.self_attention.heads.4.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+238_attention_blocks.4.self_attention.heads.5.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+239_attention_blocks.4.self_attention.heads.5.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+240_attention_blocks.4.self_attention.heads.5.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+241_attention_blocks.4.self_attention.heads.5.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+242_attention_blocks.4.self_attention.heads.5.Dropout_drop,-,"[16, 256, 256]",,
+243_attention_blocks.4.self_attention.heads.5.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+244_attention_blocks.4.self_attention.heads.5.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+245_attention_blocks.4.self_attention.Linear_projection,"[510, 512]","[16, 256, 512]",261632.0,261120.0
+246_attention_blocks.4.self_attention.Dropout_drop,-,"[16, 256, 512]",,
+247_attention_blocks.4.LayerNorm_linearlayer2,[512],"[16, 256, 512]",1024.0,512.0
+248_attention_blocks.4.feed_forward.Linear_layer1,"[512, 2048]","[16, 256, 2048]",1050624.0,1048576.0
+249_attention_blocks.4.feed_forward.ReLU_relu,-,"[16, 256, 2048]",,
+250_attention_blocks.4.feed_forward.Linear_layer2,"[2048, 512]","[16, 256, 512]",1049088.0,1048576.0
+251_attention_blocks.4.feed_forward.Dropout_dropout,-,"[16, 256, 512]",,
+252_attention_blocks.5.LayerNorm_linearlayer1,[512],"[16, 256, 512]",1024.0,512.0
+253_attention_blocks.5.self_attention.heads.0.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+254_attention_blocks.5.self_attention.heads.0.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+255_attention_blocks.5.self_attention.heads.0.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+256_attention_blocks.5.self_attention.heads.0.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+257_attention_blocks.5.self_attention.heads.0.Dropout_drop,-,"[16, 256, 256]",,
+258_attention_blocks.5.self_attention.heads.0.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+259_attention_blocks.5.self_attention.heads.0.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+260_attention_blocks.5.self_attention.heads.1.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+261_attention_blocks.5.self_attention.heads.1.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+262_attention_blocks.5.self_attention.heads.1.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+263_attention_blocks.5.self_attention.heads.1.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+264_attention_blocks.5.self_attention.heads.1.Dropout_drop,-,"[16, 256, 256]",,
+265_attention_blocks.5.self_attention.heads.1.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+266_attention_blocks.5.self_attention.heads.1.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+267_attention_blocks.5.self_attention.heads.2.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+268_attention_blocks.5.self_attention.heads.2.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+269_attention_blocks.5.self_attention.heads.2.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+270_attention_blocks.5.self_attention.heads.2.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+271_attention_blocks.5.self_attention.heads.2.Dropout_drop,-,"[16, 256, 256]",,
+272_attention_blocks.5.self_attention.heads.2.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+273_attention_blocks.5.self_attention.heads.2.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+274_attention_blocks.5.self_attention.heads.3.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+275_attention_blocks.5.self_attention.heads.3.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+276_attention_blocks.5.self_attention.heads.3.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+277_attention_blocks.5.self_attention.heads.3.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+278_attention_blocks.5.self_attention.heads.3.Dropout_drop,-,"[16, 256, 256]",,
+279_attention_blocks.5.self_attention.heads.3.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+280_attention_blocks.5.self_attention.heads.3.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+281_attention_blocks.5.self_attention.heads.4.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+282_attention_blocks.5.self_attention.heads.4.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+283_attention_blocks.5.self_attention.heads.4.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+284_attention_blocks.5.self_attention.heads.4.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+285_attention_blocks.5.self_attention.heads.4.Dropout_drop,-,"[16, 256, 256]",,
+286_attention_blocks.5.self_attention.heads.4.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+287_attention_blocks.5.self_attention.heads.4.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+288_attention_blocks.5.self_attention.heads.5.Linear_key_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+289_attention_blocks.5.self_attention.heads.5.Linear_key_layer,"[512, 85]","[16, 256, 85]",,43520.0
+290_attention_blocks.5.self_attention.heads.5.Linear_query_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+291_attention_blocks.5.self_attention.heads.5.Linear_query_layer,"[512, 85]","[16, 256, 85]",,43520.0
+292_attention_blocks.5.self_attention.heads.5.Dropout_drop,-,"[16, 256, 256]",,
+293_attention_blocks.5.self_attention.heads.5.Linear_value_layer,"[512, 85]","[16, 256, 85]",43520.0,43520.0
+294_attention_blocks.5.self_attention.heads.5.Linear_value_layer,"[512, 85]","[16, 256, 85]",,43520.0
+295_attention_blocks.5.self_attention.Linear_projection,"[510, 512]","[16, 256, 512]",261632.0,261120.0
+296_attention_blocks.5.self_attention.Dropout_drop,-,"[16, 256, 512]",,
+297_attention_blocks.5.LayerNorm_linearlayer2,[512],"[16, 256, 512]",1024.0,512.0
+298_attention_blocks.5.feed_forward.Linear_layer1,"[512, 2048]","[16, 256, 2048]",1050624.0,1048576.0
+299_attention_blocks.5.feed_forward.ReLU_relu,-,"[16, 256, 2048]",,
+300_attention_blocks.5.feed_forward.Linear_layer2,"[2048, 512]","[16, 256, 512]",1049088.0,1048576.0
+301_attention_blocks.5.feed_forward.Dropout_dropout,-,"[16, 256, 512]",,
+302_layer_norm_final,[512],"[16, 256, 512]",1024.0,512.0
+303_mode_head,"[512, 50257]","[16, 256, 50257]",25781841.0,25731584.0
